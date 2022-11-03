@@ -1,0 +1,78 @@
+.history-card-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vh;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100vh;
+}
+
+.image-title-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100vh;
+}
+
+.domain-title-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .history-card-container {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .domain-title-container {
+    flex-direction: row;
+  }
+}
+
+.time {
+  color: #64748b;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  width: 15vh;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.logo-image {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 700;
+  font-family: 'Roboto';
+  color: #475569;
+  margin: 8px;
+}
+
+.domain-url {
+  color: #64748b;
+  font-size: 14px;
+  font-family: 'Roboto';
+  margin: 8px;
+}
+
+.button {
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.delete-image {
+  width: 20px;
+  height: 20px;
+}
